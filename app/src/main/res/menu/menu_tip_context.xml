@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tip_toggle_done"
+        android:title="@string/tip_mark_done" />
+    <item
+        android:id="@+id/tip_open"
+        android:title="@string/tip_open" />
+    <item
+        android:id="@+id/tip_share"
+        android:title="@string/tip_share" />
+</menu>

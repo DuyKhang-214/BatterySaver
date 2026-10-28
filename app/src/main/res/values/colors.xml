@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Tông chủ đạo: vàng - đen -->
+    <color name="bg">#0B0B0B</color>
+    <color name="surface">#161616</color>
+    <color name="surface_high">#1F1F1F</color>
+    <color name="nav_bg">#121212</color>
+    <color name="gold">#FFC400</color>
+    <color name="gold_dark">#8A6A00</color>
+    <color name="gold_soft">#26FFC400</color>
+    <color name="gold_stroke">#55FFC400</color>
+    <color name="text_primary">#F5F5F5</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="danger">#FF5252</color>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91228269289",
+    "project_id": "batterysaver-4a77f",
+    "storage_bucket": "batterysaver-4a77f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91228269289:android:3823d6d948e34a97161e78",
+        "android_client_info": {
+          "package_name": "com.khang.batterysaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaeOXlxybE8Ak9-b8rIrCQEV7RwA8LTR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctx_copy"
+        android:title="@string/ctx_copy" />
+    <item
+        android:id="@+id/ctx_share"
+        android:title="@string/ctx_share" />
+    <item
+        android:id="@+id/ctx_details"
+        android:title="@string/ctx_details" />
+</menu>

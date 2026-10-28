@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_reset_tips"
+        android:title="@string/menu_reset_tips"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_saver"
+        android:title="@string/menu_system_saver"
+        app:showAsAction="never" />
+</menu>

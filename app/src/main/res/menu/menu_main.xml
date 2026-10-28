@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom" />
+
+    <!-- SubMenu: menu con chọn chế độ tiết kiệm -->
+    <item
+        android:id="@+id/action_mode"
+        android:title="@string/menu_mode"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mode_normal"
+                    android:title="@string/mode_normal" />
+                <item
+                    android:id="@+id/mode_saver"
+                    android:title="@string/mode_saver" />
+                <item
+                    android:id="@+id/mode_ultra"
+                    android:title="@string/mode_ultra" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_details"
+        android:title="@string/menu_details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_system_saver"
+        android:title="@string/menu_system_saver"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+</menu>

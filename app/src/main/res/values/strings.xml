@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Battery Saver</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_tips">Mẹo</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Titles -->
+    <string name="title_tips">Mẹo tiết kiệm pin</string>
+    <string name="title_settings">Cài đặt</string>
+    <string name="title_detail">Chi tiết pin</string>
+
+    <!-- Options menu -->
+    <string name="menu_refresh">Làm mới</string>
+    <string name="menu_mode">Chế độ tiết kiệm</string>
+    <string name="menu_details">Chi tiết pin</string>
+    <string name="menu_share">Chia sẻ tình trạng pin</string>
+    <string name="menu_system_saver">Trình tiết kiệm pin hệ thống</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_reset_tips">Đặt lại tất cả mẹo</string>
+
+    <!-- Context menu -->
+    <string name="ctx_title">Thông tin pin</string>
+    <string name="ctx_copy">Sao chép thông tin</string>
+    <string name="ctx_share">Chia sẻ</string>
+    <string name="ctx_details">Xem chi tiết</string>
+    <string name="tip_mark_done">Đánh dấu đã làm</string>
+    <string name="tip_mark_undone">Bỏ đánh dấu</string>
+    <string name="tip_open">Mở cài đặt</string>
+    <string name="tip_share">Chia sẻ mẹo này</string>
+
+    <!-- Home -->
+    <string name="label_level">Mức pin</string>
+    <string name="label_temp">Nhiệt độ</string>
+    <string name="label_voltage">Điện áp</string>
+    <string name="label_health">Sức khỏe</string>
+    <string name="label_tech">Công nghệ</string>
+    <string name="label_status">Trạng thái</string>
+    <string name="label_source">Nguồn sạc</string>
+    <string name="section_mode">Chế độ tiết kiệm</string>
+    <string name="section_brightness">Độ sáng màn hình</string>
+    <string name="section_quick">Truy cập nhanh</string>
+    <string name="tile_wifi">Wi-Fi</string>
+    <string name="tile_bluetooth">Bluetooth</string>
+    <string name="tile_display">Màn hình</string>
+    <string name="tile_location">Vị trí</string>
+    <string name="btn_details">Xem chi tiết</string>
+    <string name="btn_system_saver">Cài đặt hệ thống</string>
+
+    <string name="mode_normal">Thường</string>
+    <string name="mode_saver">Tiết kiệm</string>
+    <string name="mode_ultra">Siêu tiết kiệm</string>
+    <string name="mode_desc_normal">Hiệu năng tối đa. Độ sáng màn hình theo hệ thống.</string>
+    <string name="mode_desc_saver">Giảm độ sáng xuống một nửa. Nên tắt bớt Wi-Fi, Bluetooth, định vị khi không dùng.</string>
+    <string name="mode_desc_ultra">Giảm độ sáng xuống còn một phần tư. Chỉ giữ lại những tác vụ thiết yếu.</string>
+    <string name="mode_gain_none">Không tối ưu thêm</string>
+    <string name="mode_gain">Ước tính kéo dài thêm ~%1$d%% thời lượng pin</string>
+    <string name="mode_changed">Đã chuyển sang chế độ %1$s</string>
+    <string name="brightness_note">Độ sáng chỉ áp dụng khi đang mở ứng dụng này.</string>
+
+    <!-- Format -->
+    <string name="fmt_percent">%1$d%%</string>
+    <string name="fmt_temp">%1$.1f°C</string>
+    <string name="fmt_voltage">%1$.2f V</string>
+    <string name="fmt_brightness">Độ sáng: %1$d%%</string>
+    <string name="fmt_threshold">Cảnh báo khi pin ≤ %1$d%%</string>
+    <string name="fmt_tips_progress">Đã hoàn thành %1$d/%2$d mẹo</string>
+    <string name="info_clip">Pin %1$d%% | %2$s | %3$.1f°C | %4$.2f V | Sức khỏe: %5$s</string>
+    <string name="share_text">Pin điện thoại của mình còn %1$d%% (%2$s) - gửi từ Battery Saver</string>
+    <string name="share_tip">Mẹo tiết kiệm pin: %1$s - %2$s</string>
+    <string name="share_title">Chia sẻ qua</string>
+
+    <!-- Battery status -->
+    <string name="status_charging">Đang sạc</string>
+    <string name="status_full">Pin đã đầy</string>
+    <string name="status_discharging">Đang dùng pin</string>
+    <string name="status_not_charging">Không sạc</string>
+    <string name="src_ac">Sạc cắm tường</string>
+    <string name="src_usb">Sạc qua USB</string>
+    <string name="src_wireless">Sạc không dây</string>
+    <string name="src_none">Chưa cắm sạc</string>
+    <string name="health_good">Tốt</string>
+    <string name="health_overheat">Quá nóng</string>
+    <string name="health_dead">Hỏng</string>
+    <string name="health_over_voltage">Quá áp</string>
+    <string name="health_failure">Lỗi</string>
+    <string name="health_cold">Quá lạnh</string>
+    <string name="health_unknown">Không rõ</string>
+    <string name="advice_good">Pin đang hoạt động bình thường. Hạn chế để pin cạn về 0% và tránh sạc qua đêm thường xuyên để pin bền hơn.</string>
+    <string name="advice_overheat">Pin đang quá nóng. Hãy ngừng sạc, tháo ốp lưng và tránh để máy dưới nắng.</string>
+    <string name="advice_cold">Pin đang quá lạnh nên có thể tụt phần trăm nhanh. Đưa máy về nơi ấm hơn.</string>
+    <string name="advice_bad">Pin có dấu hiệu bất thường. Bạn nên mang máy đến trung tâm bảo hành để kiểm tra.</string>
+    <string name="advice_unknown">Chưa đủ thông tin để đánh giá sức khỏe pin.</string>
+
+    <!-- Dialogs / messages -->
+    <string name="low_title">Pin sắp hết</string>
+    <string name="low_msg">Pin chỉ còn %1$d%%. Bật chế độ Tiết kiệm để dùng được lâu hơn?</string>
+    <string name="low_yes">Bật ngay</string>
+    <string name="low_no">Để sau</string>
+    <string name="auto_saver_on">Pin yếu: đã tự động bật chế độ Tiết kiệm</string>
+    <string name="about_title">Battery Saver</string>
+    <string name="about_msg">Ứng dụng theo dõi tình trạng pin và gợi ý cách tiết kiệm pin.\n\nThực hành 7 - Lập trình Android.</string>
+    <string name="close">Đóng</string>
+    <string name="copied">Đã sao chép thông tin pin</string>
+    <string name="refreshed">Đã cập nhật tình trạng pin</string>
+    <string name="no_app">Không tìm thấy ứng dụng để thực hiện thao tác này</string>
+    <string name="tips_reset_done">Đã đặt lại danh sách mẹo</string>
+
+    <!-- Settings -->
+    <string name="set_threshold_title">Ngưỡng pin yếu</string>
+    <string name="set_alert_title">Cảnh báo pin yếu</string>
+    <string name="set_alert_desc">Hiện hộp thoại nhắc nhở khi pin xuống thấp</string>
+    <string name="set_auto_title">Tự động tiết kiệm</string>
+    <string name="set_auto_desc">Tự bật chế độ Tiết kiệm khi pin yếu</string>
+    <string name="btn_reset">Khôi phục mặc định</string>
+    <string name="settings_reset">Đã khôi phục cài đặt mặc định</string>
+
+    <!-- Detail -->
+    <string name="advice_title">Nhận xét</string>
+    <string name="btn_share">Chia sẻ</string>
+
+    <!-- Tips -->
+    <string-array name="tip_titles">
+        <item>Giảm độ sáng màn hình</item>
+        <item>Rút ngắn thời gian tắt màn hình</item>
+        <item>Tắt Wi-Fi khi không dùng</item>
+        <item>Tắt Bluetooth</item>
+        <item>Tắt định vị (GPS)</item>
+        <item>Bật trình tiết kiệm pin hệ thống</item>
+        <item>Hạn chế đồng bộ nền</item>
+        <item>Gỡ ứng dụng ít dùng</item>
+    </string-array>
+    <string-array name="tip_descs">
+        <item>Màn hình tiêu tốn pin nhiều nhất. Hạ độ sáng hoặc bật độ sáng tự động.</item>
+        <item>Đặt thời gian chờ ngắn (15 - 30 giây) để màn hình tự tắt sớm.</item>
+        <item>Wi-Fi luôn dò tìm mạng sẽ hao pin, hãy tắt khi ra khỏi nhà.</item>
+        <item>Chỉ bật Bluetooth khi kết nối tai nghe hoặc thiết bị khác.</item>
+        <item>Nhiều ứng dụng lấy vị trí liên tục. Chỉ cho phép khi cần dùng.</item>
+        <item>Hệ thống sẽ tự giảm hiệu năng và hoạt động nền để kéo dài pin.</item>
+        <item>Tắt đồng bộ tự động của các tài khoản không quan trọng.</item>
+        <item>Ứng dụng chạy ngầm âm thầm tiêu hao pin, hãy gỡ những ứng dụng không dùng.</item>
+    </string-array>
+</resources>
